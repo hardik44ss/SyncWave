@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #00ff41;
+  font-family: 'Share Tech Mono', 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #003300;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff41;
+}
+
+::selection {
+  background: #00ff4130;
+  color: #00ff41;
+}
+
+input, button {
+  font-family: 'Share Tech Mono', 'Courier New', monospace;
+}
+
+.cyber-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: #003300;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.cyber-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #00ff41;
+  cursor: pointer;
+  box-shadow: 0 0 6px #00ff41;
+}
+
+.cyber-slider::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #00ff41;
+  cursor: pointer;
+  box-shadow: 0 0 6px #00ff41;
+  border: none;
+}
