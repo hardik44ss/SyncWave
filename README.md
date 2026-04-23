@@ -105,8 +105,8 @@ The host controls playback (play, pause, seek, skip). Every listener automatical
 
 ### Prerequisites
 
-- **Node.js** ≥ 18
-- **npm** ≥ 9
+- **Node.js** ≥ 18.0.0 (LTS recommended)
+- **npm** ≥ 9.0.0
 
 ### Installation
 
